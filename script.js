@@ -39,7 +39,7 @@ video.addEventListener('play', () => {
   const displaySize = { width: video.width, height: video.height };
   faceapi.matchDimensions(canvas, displaySize); // Match the dimensions of the canvas to the display size
   
-  const emotionToNavigate = 'happy';
+  const emotionToNavigate = 'sad';
   
   setInterval(async () => {
 
@@ -63,5 +63,5 @@ video.addEventListener('play', () => {
       window.location.href = 'anderepage.html'; // Change this to the URL of the page you want to navigate to
     }
     
-  }, 100) // Repeat the detection every 100 milliseconds
+  }, 1000) // Repeat the detection every 100 milliseconds
 });

@@ -11,3 +11,11 @@ body {
   canvas {
     position: absolute;
   }
+
+  .input_video{
+    visibility: hidden;
+  }
+
+  #video{
+    visibility: hidden;
+  }
