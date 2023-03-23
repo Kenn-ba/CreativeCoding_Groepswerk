@@ -39,7 +39,7 @@ video.addEventListener('play', () => {
   const displaySize = { width: video.width, height: video.height };
   faceapi.matchDimensions(canvas, displaySize); // Match the dimensions of the canvas to the display size
   
-  const emotionToNavigate = 'sad';
+  const emotionToNavigate = '';
   
   setInterval(async () => {
 
